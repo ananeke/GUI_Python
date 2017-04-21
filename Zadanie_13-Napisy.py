@@ -33,7 +33,7 @@ def znaki():
 
 def sprawdz(z):
     global napis
-    if z.keycode == 8:
+    if z.keycode == 8 or z.keycode == 46:
         napis = napis[:-1]
         znaki()
     else:
